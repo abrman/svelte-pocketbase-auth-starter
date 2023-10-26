@@ -1,0 +1,42 @@
+:root {
+  --baseFontFamily: "Source Sans Pro", sans-serif, emoji;
+  --monospaceFontFamily: "Ubuntu Mono", monospace, emoji;
+  --txtPrimaryColor: #16161a;
+  --txtHintColor: #666f75;
+  --txtDisabledColor: #a0a6ac;
+  --primaryColor: #16161a;
+  --bodyColor: #f8f9fa;
+  --baseColor: #ffffff;
+  --baseAlt1Color: #e4e9ec;
+  --baseAlt2Color: #d7dde4;
+  --baseAlt3Color: #c6cdd7;
+  --baseAlt4Color: #a5b0c0;
+  --infoColor: #5499e8;
+  --infoAltColor: #cee2f8;
+  --successColor: #32ad84;
+  --successAltColor: #c4eedc;
+  --dangerColor: #e34562;
+  --dangerAltColor: #f7cad2;
+  --warningColor: #ff944d;
+  --warningAltColor: #ffd4b8;
+  --baseBorderRadius: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--txtHintColor);
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+html {
+  font-family: var(--baseFontFamily);
+}

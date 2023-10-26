@@ -1,0 +1,33 @@
+{
+  "name": "svelte-pocketbase-auth-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "pb": "cd pocketbase && pocketbase.exe serve",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "deploy": "npm run build && flyctl deploy"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.4.2",
+    "@tsconfig/svelte": "^5.0.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-svelte": "^3.0.3",
+    "svelte": "^4.0.5",
+    "svelte-check": "^3.4.6",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.2",
+    "unplugin-fonts": "^1.0.3",
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "avatar-initials": "^5.0.0",
+    "pocketbase": "^0.19.0",
+    "svelte-routing": "^2.5.0",
+    "vite-plugin-fonts": "^0.7.0",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}
