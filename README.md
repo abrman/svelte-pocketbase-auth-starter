@@ -1,8 +1,8 @@
 # Svelte + TS + Vite + Pocketbase Auth starter
 
-This template should help get you started developing with Svelte and TypeScript in Vite while using Pocketbase for auth, database & VM hosting executable. Fly.io is the recommended host, and thus you'll find this project includes a fly.toml and a dockerfile. Feel free to use either one of those files, however make sure to update your fly.toml to your APP and REGION.
+This template should help get you started developing with Svelte and TypeScript in Vite while using Pocketbase for auth, database & VM hosting executable. Fly.io is the recommended host, and thus you'll find this project includes a fly.toml and a dockerfile. Feel free to use either one of those files, however make sure to update your fly.toml to your APP and REGION before you do.
 
-For developement run in parallel `npm run dev` and `npm run pb` (If you're using a non-Windows machine, you'll need to download the appropriate pocketbase execurable for your system and update your commands accordingly). To build use `npm run build` at which point vite will build into the pocketbase pb_public directory. Pocketbase will serve these files as a jamstack application.
+For development run in parallel `npm run dev` and `npm run pb` (If you're using a non-Windows machine, you'll need to download the appropriate pocketbase executable for your system and update your commands accordingly). Follow the URL's provided when running both commands to get to your website & to configure your pocketbase admin account. To build use `npm run build` at which point vite will build into the pocketbase pb_public directory. Pocketbase will serve your app from this directory.
 
 Lastly follow [this guide](https://github.com/pocketbase/pocketbase/discussions/537) to deploy your application to fly.io. Once everything is set up you can deploy a new version simply by running `npm run deploy`.
 
